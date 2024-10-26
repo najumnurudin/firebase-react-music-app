@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.loginContainer{
+    box-shadow: rgb(255, 18, 5) 0px 20px 30px -10px;
+}
+
+.late{
+    transition: .5s ease-in;
+}
+.signUpContainer{
+    box-shadow: rgb(255, 18, 5) 0px 20px 30px -10px;
+}
+
+.homeConainer{
+    background: #000000;
+}
+
+
+.number_1{
+    background: linear-gradient(110.6deg, rgb(184, 142, 252) 2.2%, rgb(104, 119, 244) 100.2%);
+    cursor: pointer;
+}
+.number_1:hover{
+    box-shadow: rgb(4, 118, 240) 0px 20px 30px -10px;
+}
+
+.number_2{
+    background: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    cursor: pointer;
+}
+.number_2:hover{
+    box-shadow: rgb(240, 4, 224) 0px 20px 30px -10px;
+}
+
+.number_3{
+    background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
+    cursor: pointer;
+}
+.number_3:hover{
+    box-shadow: rgb(240, 4, 4) 0px 20px 30px -10px;
+}
+
+.number_4{
+    cursor: pointer;
+    background: linear-gradient(91.9deg, rgb(243, 31, 105) 5.7%, rgb(249, 233, 47) 92.9%);
+}
+.number_4:hover{
+    box-shadow: rgb(250, 209, 3) 0px 20px 30px -10px;
+}
+
+.number_5{
+    cursor: pointer;
+    background: radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%);
+}
+.number_5:hover{
+    box-shadow: rgb(49, 2, 236) 0px 20px 30px -10px;
+}
+
+.artistProfile{
+    background-position: center;
+    background-size: cover;
+}
+.artistProfile:hover{
+    box-shadow: rgb(4, 240, 209) 0px 6px 30px -10px;
+}
+
+.backgImages{
+    background-position: center;
+    background-size: cover;
+}
